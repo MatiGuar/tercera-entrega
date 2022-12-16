@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre":"Melaza de caña",
+        "precio":1200,
+        "imagen":"melaza-de-cania.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Harina de roca",
+        "precio":1800,
+        "imagen":"harina-de-roca.jpg"
+    },
+    {
+        "id":3,
+        "nombre":"Cascarilla de arroz" ,
+        "precio":900,
+        "imagen":"cascarilla-de-arroz.jfif"
+    },
+    {
+        "id":4,
+        "nombre":"Carbonilla vegetal",
+        "precio": 1100,
+        "imagen":"carbonilla-vegetal.jfif"
+    },
+    {
+        "id":5,
+        "nombre":"Biocarbon activado",
+        "precio":950,
+        "imagen":"bio-carbon.jfif"
+    },
+    {
+        "id":6,
+        "nombre":"Agua de mar",
+        "precio":1700,
+        "imagen":"agua-de-mar.jpg"
+    },
+    {
+        "id":7,
+        "nombre":"Cera natural",
+        "precio":1000,
+        "imagen":"cera-natural.jfif"
+    },
+    {
+        "id":8,
+        "nombre":"Ormus",
+        "precio":1400,
+        "imagen":"ormus.jpg"
+    }
+]

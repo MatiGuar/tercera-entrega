@@ -1,4 +1,82 @@
+
+body {
+  font-family: "Righteous", bold !important;
+}
+
 .cardProd {
     width: 200px !important;
     margin: 10px;
 }
+.productos img {
+    border: 2px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .imagenProductoPrecio {
+    display: flex;
+    justify-content: space-evenly;
+    grid-area: imgbox;
+  }
+   
+  .container-img {
+    width: 200px;
+    height: 190px;
+  }
+
+/*--- productos --- */
+.productos-page h1 {
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .productos-page {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .productos_full_page {
+    display: grid;
+    align-items: center;
+  }
+  
+  .page-prod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container-img-prod {
+    border: 2px solid white;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 300px;
+    height: 300px;
+  }
+  
+  
+  .btn-agregar-producto {
+    background-color: #E29F5B;
+    border-style: none;
+    margin: 10px 0px 10px 0px;
+    width: 120px;
+  }
+  .btn-agregar-producto:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    color: #FEC619;
+  }
+  
+  h6 {
+    color: white;
+    background-color: #305649;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 0 0.5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .botones {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
